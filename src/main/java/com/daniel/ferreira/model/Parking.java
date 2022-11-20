@@ -3,8 +3,6 @@ package com.daniel.ferreira.model;
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.Data;
@@ -12,8 +10,8 @@ import lombok.Data;
 @Data
 @Entity
 public class Parking {
+	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private String id;
 	private String license;
 	private String state;

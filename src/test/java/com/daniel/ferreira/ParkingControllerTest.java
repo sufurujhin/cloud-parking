@@ -13,7 +13,7 @@ import com.daniel.ferreira.controller.dto.ParkingCreateDTO;
 import io.restassured.RestAssured;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ParkingControllerTest {
+public class ParkingControllerTest  extends AbstractConteinerBase{
 
 	@LocalServerPort
 	private int randomPort;

@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.daniel.ferreira.model.Parking;
 
 @Repository
-public interface ParkingRepository extends JpaRepository<Parking, Long> {
+public interface ParkingRepository extends JpaRepository<Parking, String> {
 }
