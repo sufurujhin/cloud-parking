@@ -30,4 +30,5 @@ public class ParkingService {
 	private static String getUUID() {
 		return UUID.randomUUID().toString().replaceAll("-", "");
 	}
+	
 }

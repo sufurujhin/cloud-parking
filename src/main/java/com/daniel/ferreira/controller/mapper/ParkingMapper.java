@@ -21,4 +21,5 @@ public class ParkingMapper {
 	public List<ParkingDTO> toParkingDTOList(List<Parking> parkingList) {
 		return parkingList.stream().map(this::parkingDTO).collect(Collectors.toList());
 	}
+	
 }

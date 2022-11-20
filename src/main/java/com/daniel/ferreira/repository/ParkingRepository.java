@@ -7,5 +7,4 @@ import com.daniel.ferreira.model.Parking;
 
 @Repository
 public interface ParkingRepository extends JpaRepository<Parking, Long> {
-
 }

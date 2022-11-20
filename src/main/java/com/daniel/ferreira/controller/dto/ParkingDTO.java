@@ -19,4 +19,5 @@ public class ParkingDTO {
 	private LocalDateTime entryDate;
 	private LocalDateTime exitDate;
 	private Double bill;
+	
 }
