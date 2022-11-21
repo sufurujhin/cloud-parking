@@ -39,6 +39,7 @@ public class ParkingControllerTest  extends AbstractConteinerBase{
 		createDTO.setState("SL");
 		
 		RestAssured.given()
+		.auth().basic("admin","admin")
 		.when()
 		.contentType(MediaType.APPLICATION_JSON_VALUE)
 		.post("/parking")
